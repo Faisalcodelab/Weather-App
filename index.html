@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="weather.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-sun sun-icon"></i> Weather App <i class="fas fa-sun sun-icon"></i></h1>
+        <input type="text" id="cityInput" placeholder="Enter city name" oninput="validateInput()">
+        <button onclick="getWeather()"><i class="fas fa-cloud-sun-rain" style="color: #4682b4;"></i> Get Weather</button>
+        <div id="weatherInfo"></div>
+        <div class="creator-text">Created and designed by: Faisal Rahimzai</div>
+        <div class="clock-container">
+           
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

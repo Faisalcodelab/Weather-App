@@ -1,0 +1,139 @@
+/* Apply a subtle gradient background for a modern look */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Add some depth and space to the container */
+.container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    width: auto;
+    max-width: 90%;
+}
+
+/* Make the heading more visually appealing */
+h1 {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Restoring the original margin */
+}
+
+/* Enhance the input and button styles */
+input[type="text"],
+button {
+    padding: 12px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+    background-color: blue; /* Change the background color to blue */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Darken the button color on hover */
+button:hover {
+    background-color: #0066cc; /* Darker shade of blue on hover */
+}
+
+
+/* Adjust margin and font size for weather info */
+#weatherInfo {
+    margin-top: 16px;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Adjust font size and icon size to fit within the container */
+#weatherInfo > div {
+    margin-right: 20px; /* Restoring the original margin */
+    font-size: min(4vw, 20px); /* Restoring the original font size */
+}
+
+/* Adjust the width of the container */
+.container {
+    width: auto; /* Set width to auto to adjust dynamically based on content */
+    max-width: 90%; /* Set a maximum width to prevent it from stretching too wide */
+}
+
+/* Adjust vertical alignment of the weather icon */
+#weatherInfo img {
+    vertical-align: middle; /* Align the image vertically in the middle */
+}
+
+/* Sun icon styling */
+.sun-icon {
+    color: #ffd700; /* Set the color to gold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a black shadow */
+}
+
+/* Button styling */
+button {
+    background-color: blue; /* Change the background color to blue */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Darken the button color on hover */
+button:hover {
+    background-color: #0066cc; /* Darker shade of blue on hover */
+}
+
+/* Map container styling */
+.map-container {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.creator-text {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #666; /* Adjust the color as needed */
+    display: inline-block;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow effect */
+}
+
+/* Define the animation */
+@keyframes slow-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply animation to sun icons */
+.sun-icon {
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: slow-spin 10s linear infinite; /* Adjust animation duration as needed */
+}
+
